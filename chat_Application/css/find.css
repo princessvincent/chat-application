@@ -1,0 +1,71 @@
+
+body{
+    overflow: hidden;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+
+}
+.card img{
+    height: 200px;
+}
+.title{
+    color: grey;
+    font-size: 18px;
+}
+.bottom{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    font-size: 18px;
+}
+a{
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+button:hover, a:hover{
+    opacity: 1.7;
+}
+form.search_form input[type=text]{
+padding: 10px;
+font-size: 17px;
+border-radius: 4px;
+border: 1px solid #343a40 !important;
+float: left;
+width: 160px;
+color: white;
+background: #343a40;
+position: relative;
+}
+form.search_form button{
+    float: left;
+    width: 120px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #343a40 !important;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    background-color: #343a40!important;
+    position: relative;
+}
+form.search_form button:hover{
+    background:  #343a40 !important;
+
+}
+form.search_form::after{
+    content: "";
+    clear: both;
+    display: table;
+}
